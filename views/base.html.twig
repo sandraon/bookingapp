@@ -10,17 +10,10 @@
 	</head>
 
 	<body>
-		<div class="header">
-            <img src="/images/notebook.svg" class="header__pic"/>
-            <span class="header__heading">
-                Hotel I-Smith
-            </span>
-        </div>
+		{{ include('_header.html.twig') }}
+		
         <div class="content"></div>
-        <div class="footer">
-            <div class="footer__text">
-                Created by Sandra Õnne
-            </div>
-        </div>
+        
+        {{ include('_footer.html.twig') }}
 	</body>
 </html>
